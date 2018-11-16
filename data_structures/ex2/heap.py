@@ -12,6 +12,7 @@ def heapsort(arr):
 
     # For each item in the heap's storage, pass it into the sorted_list since the heap handles the ordering by max value via the bubble_up method in the insert method.
     for i in range(len(heap.storage)):
+        # As each item is inserted in the sorted list the heap deletes from its storage
         sorted_list.insert(0, heap.delete())
 
     return sorted_list
