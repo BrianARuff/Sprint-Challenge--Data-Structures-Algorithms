@@ -25,5 +25,6 @@ c)  bunnyEars = function(bunnies) {
 # floor _f_ or higher, and doesn't get broken if dropped off a floor less than floor _f_. Devise a strategy to determine 
 # the value of _f_ such that the number of dropped eggs is minimized.
 
-I think the best scenario is to start on the middle floor and try to create a worse case O(log n) on average and best case O(1) algorithm scenario.
-If you can keep cutting the floors in halves then you will quickly get your result, and potentially get it right the first time.
+I think the best scenario is to start on the middle floor and try to create a worse case O(log n) on average and best case
+O(1) algorithm scenario. If you can keep cutting the floors in halves then you will quickly get your result, and 
+potentially get it right the first time.
